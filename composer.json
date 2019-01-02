@@ -1,0 +1,38 @@
+{
+	"name" : "dicr/yii2-media",
+	"description" : "Media for Yii2",
+	"type" : "library",
+	"authors" : [{
+			"name" : "Igor Tarasov",
+			"email" : "develop@dicr.org",
+			"homepage" : "http://dicr.org",
+			"role" : "developer"
+		}
+	],
+	"minimum-stability" : "stable",
+	"require" : {
+		"yiisoft/yii2" : "~2.0",
+		"dicr/yii2-exec" : "~1.0"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"dicr\\exec\\" : "src"
+		}
+	},
+	"keywords" : [
+		"php yii2 media ffmpeg"
+	],
+	"repositories" : [{
+			"type" : "composer",
+			"url" : "https://asset-packagist.org"
+		}, {
+			"type" : "git",
+			"url" : "https://gitlab.com/dicr/yii2-exec.git",
+			"name" : "yii2-exec"
+		}
+	],
+	"homepage" : "https://gitlab.com/dicr/yii2-media",
+	"support" : {
+		"source" : "https://gitlab.com/dicr/yii2-media.git"
+	}
+}
