@@ -16,7 +16,7 @@
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-	<buildpathentry kind="src" path="vendor/dicr/yii2-exec/src">
+	<buildpathentry kind="src" path="vendor/dicr/php-exec/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
 		</attributes>
