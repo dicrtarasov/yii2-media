@@ -5,7 +5,6 @@ use dicr\exec\ExecInterface;
 use dicr\exec\LocalExec;
 use yii\base\Component;
 use yii\base\InvalidConfigException;
-use yii\di\Instance;
 use yii\helpers\Json;
 
 /**
