@@ -33,7 +33,13 @@ class FFMpeg extends Component
      */
     public function init()
     {
-        Instance::ensure($this->exec, ExecInterface::class);
+        if (is_array($this->exec)) {
+            $this->exec = \Yii::createObject($this->exec);
+        }
+
+        if (! ($this->exec instanceof ExecInterface)) {
+            throw new InvalidConfigException('exec');
+        }
 
         if (empty($this->ffmpeg)) {
             throw new InvalidConfigException('ffmpeg');
