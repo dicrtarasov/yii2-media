@@ -17,7 +17,7 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"dicr\\exec\\" : "src"
+			"dicr\\media\\" : "src"
 		}
 	},
 	"keywords" : [
